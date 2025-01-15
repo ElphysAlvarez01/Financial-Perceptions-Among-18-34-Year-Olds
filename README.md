@@ -72,7 +72,7 @@
 
 ----------------------------------------------------------------------------------------------------------
 
-### Future Research
+### Future Research:
 As of 2024 Q4, ETFs (e.g., SPY) and the magnificent 7 are at all-time highs and returning double digits annually, and yet we still see low confidence and perceptions of personal finances. This makes me wonder what factors would help individuals feel more positive about personal finances. Future Research should look at:
  
 1.	**The relationship between  personal finance questions and other factors such as layoffs, job openings, wage growth, inflation, and stock allocations.** Economic uncertainty, layoffs, and slow wage growth can weigh on young adults' financial outlook and exacerbate concerns about economic security.
@@ -85,7 +85,8 @@ As of 2024 Q4, ETFs (e.g., SPY) and the magnificent 7 are at all-time highs and 
 
 ----------------------------------------------------------------------------------------------------------
 
-### Usage: The results should be particularly interesting for policymakers as it would also be critical to understand demographic groups (e.g., regional, education, and income) to help improve their perceptions and confidence levels of their finances. 
+### Usage: 
+The results should be particularly interesting for policymakers as it would also be critical to understand demographic groups (e.g., regional, education, and income) to help improve their perceptions and confidence levels of their finances. 
 
 ### Conclusion:
 
