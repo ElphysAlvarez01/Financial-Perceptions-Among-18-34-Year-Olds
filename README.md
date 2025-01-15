@@ -14,7 +14,7 @@
 
 ### **Data Preparation:** 
 
-- Data was downloaded from The University of Michigan’s Surveys of Consumers site. [https://data.sca.isr.umich.edu/subset/subset.php]
+- Data was downloaded from The University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. However, the data is as of **XX/XX/XXXX**.
 - The data was then restructured to include a column per personal finance question. The original file separated the responses for each demographic individual (e.g. 18-34, 35-54, 55-97) by personal finance question.
 - Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
 - Tableau was also used to create groups by personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
@@ -85,3 +85,6 @@ As of 2024 Q4, ETFs (e.g., SPY) and the magnificent 7 are at all-time highs and 
 
 The financial confidence and expectations of individuals aged 18-34 have been profoundly shaped by economic cycles. While the current outlook in 2024 shows improvement compared to previous recession lows, it remains subdued relative to the highs before the 2020 pandemic recession which caused a sharp decline in confidence and expectations over the past four years. 
 
+## Assumptions and Caveats:
+- Please note that certain personal questions either started later than other questions or they seem to have had a pause. I displayed the time series as is with those periods missing. 
+- Data was also rounded to the nearest whole across the visualizations to make it easier to read. 
