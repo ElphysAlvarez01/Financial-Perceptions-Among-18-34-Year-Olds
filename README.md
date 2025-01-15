@@ -1,3 +1,5 @@
+![](Univ_Mich_Banner.png)
+
 # Economic Insights: Exploring Financial Perceptions of 18-34-Year-Olds
 
 ### **Quick Summary:** 
