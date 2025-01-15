@@ -15,8 +15,11 @@
 ### **Data Preparation:** 
 
 - Data was downloaded from The University of Michigan’s Surveys of Consumers site. [https://data.sca.isr.umich.edu/subset/subset.php]
-- The data was then restructured to include a column per personal finance question. The original file separated the responses for each demographic individual (e.g. 18-34, 35-54, 55-97) by personal finance question. Using Tableau, the data was then pivoted to allow for demographic groups and personal finance questions.
-- Tableau was also used to create groups the personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
+- The data was then restructured to include a column per personal finance question. The original file separated the responses for each demographic individual (e.g. 18-34, 35-54, 55-97) by personal finance question.
+- Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
+- Tableau was also used to create groups by personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
+
+### ADD IMAGE EXAMPLE:
 
 **Helpful Calculations Used:** 
 - XX
@@ -52,7 +55,7 @@
 **Probability of Income Gains:**
 •	Current Outlook (2024): Confidence in income gains over the next 5 years is just 9, lower than during the 2020 pandemic recession, reflecting pessimism about wage growth and economic mobility.
 
-•	Historical Comparison: This score is far below the 56 seen during the 1990s boom and closer to the lows of -23 in 2009.
+•	Historical Comparison: This score is far below the 56 seen during the 1990s boom and closer to the low of -23 in 2009.
 
 **Probability of Job Loss:**
 •	The current outlook as of 2024 Q4, the perception of the probability of Job Loss is at 27, and it has remained elevated, similar to pandemic levels, reflecting continued instability in the labor market.
@@ -68,10 +71,15 @@ As of 2024 Q4, ETFs (e.g., SPY) and the magnificent 7 are at all-time highs and 
  
 1.	**The relationship between  personal finance questions and other factors such as layoffs, job openings, wage growth, inflation, and stock allocations.** Economic uncertainty, layoffs, and slow wage growth can weigh on young adults' financial outlook and exacerbate concerns about economic security.
 
-2.	**Analyze the same information but with other demographic breakdowns such as Income and Education Levels.** Perhaps other demographic groups feel the economic insecurity less or later in the cycle. 
+2.	**Analyze the same information but with other demographic breakdowns such as income and education levels.** Perhaps other demographic groups feel the economic insecurity less or later in the cycle. 
 
-3.	**Lastly, it would be interesting to assess how changes in personal finance confidence influence presidential results.** For example, the 2024 presidential results were recently finalized and as we know from this analysis, most personal finance questions showed confidence decreasing during the last 4 years compared to late 2019 and early 2020. Future Research should assess how presidential results influence confidence levels during the tenure of the sitting president. 
+3.	**It would also be interesting to assess how changes in personal finance confidence influence presidential results.** For example, the 2024 presidential results were recently finalized and as we know from this analysis, most personal finance questions showed confidence decreasing during the last 4 years compared to late 2019 and early 2020. Future Research should assess how presidential results influence confidence levels during the tenure of the sitting president. 
 
+4. **Lastly, it would be helpful to identify Seasonal Cycles** - Identifying seasonal cycles would be helpful for economists and policymakers. Perhaps there are confidence lows or highs that occur during specific quarters, or months.
+
+----------------------------------------------------------------------------------------------------------
+
+### Usage: 
 
 ### Conclusion:
 
