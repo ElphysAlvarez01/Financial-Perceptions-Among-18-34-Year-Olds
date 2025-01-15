@@ -25,6 +25,10 @@
 - XX
 - XX
 
+**Visualization Notes:** 
+- To ensure the charts are not overwhelming, only specific periods were highlighted to show the labels. A calculation with recession dates was created to label dates as "Normal" or "Highlight" periods. 
+- Other periods that were displayed were the lowest and highest scores.
+  
 ----------------------------------------------------------------------------------------------------------
 
 ## **Series of Analyses:**
@@ -87,4 +91,4 @@ The financial confidence and expectations of individuals aged 18-34 have been pr
 
 ## Assumptions and Caveats:
 - Please note that certain personal questions either started later than other questions or they seem to have had a pause. I displayed the time series as is with those periods missing. 
-- Data was also rounded to the nearest whole across the visualizations to make it easier to read. 
+- Data was also rounded to the nearest whole across the visualizations to make it easier to read.
