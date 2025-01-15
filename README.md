@@ -8,7 +8,7 @@
 
 **Analyses Conducted:** Tableau was used to conduct predictive models like forecasts and linear regression. The models provided insights into the "Current Financial Situation," "Expected Changes," and "Probabilities of Income Gains and Job Loss."
 
-**Linked to Tableau Public Dashboard / Story:**  ADD IT HERE! 
+**Link to Tableau Public Dashboard / Story:**  ADD IT HERE! 
 
 ----------------------------------------------------------------------------------------------------------
 
