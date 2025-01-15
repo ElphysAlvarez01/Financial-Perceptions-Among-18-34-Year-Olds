@@ -1,4 +1,4 @@
-# Economic Insights: Financial Perceptions and Expectations Among 18–34-Year-Olds
+# Economic Insights: Exploring Financial Perceptions of 18-34-Year-Olds
 
 ### **Quick Summary:** 
 
