@@ -21,8 +21,6 @@
 - Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
 - Tableau was also used to create groups by personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
 
-### ADD IMAGE EXAMPLE:
-
 **Helpful Calculations Used:** 
 - XX
 - XX
@@ -57,9 +55,11 @@
 
 •	The **R-squared of 0.125** indicates that about 12.5% of the variance is explained by this model, with statistical significance **(p = 0.008)**. While there is slight optimism about the financial situation compared to 5 years ago, the model suggests limited predictive power for this trend.
 
+----------------------------------------------------------------------------------------------------------
 ### 2. Expected Changes in Financial Situation: 
 
 **Key Insights:**
+
 •	Currently in 2024 Q4, expectations in the 1-year outlook stand at 133, close to its post-2008 low of 122, signaling minimal optimism. The 5-year outlook has fallen to 150, the lowest since the pandemic recovery began.
 
 •	Interestingly, expectations were more optimistic during the pandemic in 2020, with the 5-year outlook at 161, highlighting hope for rapid recovery at the time.
@@ -74,7 +74,11 @@
 
 ![](LinearReg-ExpectedChange-Next-5YR.png)
 
-### 3. Probabilities: Income Gains vs. Job Loss
+----------------------------------------------------------------------------------------------------------
+
+### 3. Probabilities: Income Gains vs. Job Loss:
+
+**Key Insights:**
 
 **Probability of Income Gains:**
 
