@@ -33,7 +33,7 @@
 
 ## **Series of Analyses:**
 
-### 1. Current Financial Situation
+### 1. Current Financial Situation Compared to 1-year Ago & 5-years Ago:
 
 **Key Insights:**
 
@@ -44,6 +44,7 @@
 **Linear Regression:** 
 ![](LinearReg-CurrentFinSituation_1YR-ago.png)
 **Current Financial Situation Compared with 1 Year Ago (Age 18–34)**
+
 •	The linear regression trend shows a small **negative coefficient (-0.0014)**, indicating a slight decline in perceptions over time. With an **R-squared of 0.287**, the model explains about 28.7% of the variance in perceptions, which is statistically significant **(p < 0.0001)** and suggests a meaningful trend in the relationship.
 
 •	Overall, this indicates perceptions of the current financial situation compared to a year ago have gradually declined over time. 
