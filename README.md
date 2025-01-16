@@ -45,22 +45,31 @@
 
 **Linear Regression:** 
 ![](LinearReg-CurrentFinSituation_1YR-ago.png)
+**Current Financial Situation Compared with 1 Year Ago (Age 18–34)**
+•	The linear regression trend shows a small **negative coefficient (-0.0014)**, indicating a slight decline in perceptions over time. With an **R-squared of 0.287**, the model explains about 28.7% of the variance in perceptions, which is statistically significant **(p < 0.0001)** and suggests a meaningful trend in the relationship.
 
+•	Overall, this indicates perceptions of the current financial situation compared to a year ago have gradually declined over time. 
 
 ![](LinearReg-CurrentFinSituation_5YR-ago.png)
+**Current Financial Situation Compared with 5 Years Ago (Age 18–34)**
+
+•	Despite the lower scores at the current moment, the trend shows a slight **positive coefficient (0.0036)**, suggesting that over the long term, perceptions are positive.
+
+•	The **R-squared of 0.125** indicates that about 12.5% of the variance is explained by this model, with statistical significance **(p = 0.008)**. While there is slight optimism about the financial situation compared to 5 years ago, the model suggests limited predictive power for this trend.
 
 ### 2. Expected Changes in Financial Situation: 
 
 **Key Insights:**
-•	Current Expectations (2024): The 1-year outlook stands at 133, close to its post-2008 low of 122, signaling minimal optimism. The 5-year outlook has fallen to 150, the lowest since the pandemic recovery began.
+•	Currently in 2024 Q4, expectations in the 1-year outlook stand at 133, close to its post-2008 low of 122, signaling minimal optimism. The 5-year outlook has fallen to 150, the lowest since the pandemic recovery began.
 
-•	Pandemic Highs: Interestingly, expectations were more optimistic during the pandemic in 2020, with the 5-year outlook at 161, highlighting hope for rapid recovery at the time.
+•	Interestingly, expectations were more optimistic during the pandemic in 2020, with the 5-year outlook at 161, highlighting hope for rapid recovery at the time.
 
 **Linear Regression:** 
 ![](LinearReg-ExpectedChange-Next-1Yr.png)
 **Expected Financial Situation in 1 Year (Age 18–34)**
 
-•	The trend coefficient is -0.0015, indicating a small but consistent decline in short-term financial expectations among the 18-34 age group. The model’s R-squared of 0.287 suggests that 28.7% of the variability in expectations can be attributed to the trend. The p-value (< 0.0001) demonstrates that this trend is highly significant and unlikely to have occurred by chance.While the R-squared shows room for other influencing factors, the significant p-value highlights the reliability of the observed trend.
+•	The trend coefficient is -0.0015, indicating a small but consistent decline in short-term financial expectations among the 18-34 age group. The model’s **R-squared of 0.287** suggests that 28.7% of the variability in expectations can be attributed to the trend. The **p-value (< 0.0001)** demonstrates that this trend is highly significant and unlikely to have occurred by chance. While the R-squared shows room for other influencing factors, the significant p-value highlights the reliability of the observed trend.
+
 •	Overall, this suggests short-term financial expectations for the coming year are becoming slightly less optimistic over time. This trend reflects potential short-term uncertainty. However, other factors should be taken into consideration as well. 
 
 ![](LinearReg-ExpectedChange-Next-5YR.png)
@@ -68,28 +77,25 @@
 ### 3. Probabilities: Income Gains vs. Job Loss
 
 **Probability of Income Gains:**
-•	Current Outlook (2024): Confidence in income gains over the next 5 years is just 9, lower than during the 2020 pandemic recession, reflecting pessimism about wage growth and economic mobility.
 
-•	Historical Comparison: This score is far below the 56 seen during the 1990s boom and closer to the low of -23 in 2009.
+•	Currently in 2024 Q4, confidence in income gains over the next 5 years is just 9, lower than during the 2020 pandemic recession, reflecting pessimism about wage growth and economic mobility.
 
 **Probability of Job Loss:**
+
 •	The current outlook as of 2024 Q4, the perception of the probability of Job Loss is at 27, and it has remained elevated, similar to pandemic levels, reflecting continued instability in the labor market.
 
-•	Historical Trends: While lower than the peak of 37 in 2020, the score highlights lingering concerns about economic security, even as unemployment rates nationally remain low.
+•	While lower than the peak of 37 in 2020, the score highlights lingering concerns about economic security, even as unemployment rates nationally remain low.
 
-**Linear Regression:** ADD INFORMATION HERE!
+**Linear Regression:** 
 ![](LinearReg-Probability-Real-Income-Gain-Next-5Yr.png)
 **Probability of Real Income Gains in the Next 5 Years (Age 18–34)**
 
-•	A small negative coefficient (-0.00062) indicates a decline in optimism for real income gains. The model shows poor power with R-squared = 0.016, and the trend is not statistically significant (p = 0.16).
-
-•	Overall, this indicates there is slight pessimism about income growth in the next (e.g. 5 Years ago) showing lower statistical significance potentially indicating when individuals think that far, other factors come into play.5 years, though the trend lacks strong predictive reliability. Similar to other measures that ask about longer-term years 
+•	A small negative coefficient **(-0.00062)** indicates a decline in optimism for real income gains. The model shows poor power with **R-squared = 0.016**, and the trend is not statistically significant **(p = 0.16)**. Overall, this indicates there is slight pessimism about income growth in the next (e.g. 5 Years ago) showing lower statistical significance potentially indicating when individuals think that far, other factors come into play.5 years, though the trend lacks strong predictive reliability. Similar to other measures that ask about the longer-term number of years comparison and expectations (e.g. 5 years ago and 5 years from now).  
 
 ![](LinearReg-Probability-Job-Loss-Next-5Yr.png)
 **Probability of Losing a Job in the Next 5 Years (Age 18–34)**
-•	The trend suggests a small positive coefficient (0.00023), meaning that perceptions of job loss are slightly increasing. However, the R-squared of 0.067 suggests a weak model fit, though it is statistically significant (p = 0.007).
 
-•	The increase in the perceived probability of job loss reflects growing concerns among individuals aged 18-43. Higher values are associated with negative perceptions, signaling declining confidence in job stability.
+•	The trend suggests a small positive coefficient **(0.00023)**, meaning that perceptions of job loss are slightly increasing. However, the **R-squared of 0.067** suggests a weak model fit, though it is statistically significant **(p = 0.007)**. The increase in the perceived probability of job loss reflects growing concerns among individuals aged 18-43. Higher values are associated with negative perceptions, signaling declining confidence in job stability.
 
 ----------------------------------------------------------------------------------------------------------
 
