@@ -8,7 +8,7 @@
 
 **Visualization:** The data is restructured using Tableau to focus on key recession periods (2001, 2007-09, 2020) and the current economic outlook in 2024. 
 
-**Analyses Conducted:** Tableau was used to conduct predictive models like forecasts and linear regression. The models provided insights into the "Current Financial Situation," "Expected Changes," and "Probabilities of Income Gains and Job Loss."
+**Analyses Conducted:** Tableau was used to create predictive models, such as forecasts and linear regression. The models provided insights into the "Current Financial Situation," "Expected Changes," and "Probabilities of Income Gains and Job Losses."
 
 **Link to Tableau Public Dashboard / Story:**  ADD IT HERE! 
 
@@ -16,8 +16,8 @@
 
 ### **Data Preparation:** 
 
-- Data was downloaded from The University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. However, the data is as of **XX/XX/XXXX**.
-- The data was then restructured to include a column per personal finance question. The original file separated the responses for each demographic individual (e.g. 18-34, 35-54, 55-97) by personal finance question.
+Data was downloaded from the University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. However, the data is as of **XX/XX/XXX**.
+The data was then restructured to include a column for each personal finance question. The original file separated the responses for each demographic individual (e.g., 18-34, 35-54, 55-97) by personal finance question.
 - Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
 - Tableau was also used to create groups by personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
 
@@ -69,9 +69,9 @@
 ![](LinearReg-ExpectedChange-Next-1Yr.png)
 **Expected Financial Situation in 1 Year (Age 18–34)**
 
-•	The trend coefficient is -0.0015, indicating a small but consistent decline in short-term financial expectations among the 18-34 age group. The model’s **R-squared of 0.287** suggests that 28.7% of the variability in expectations can be attributed to the trend. The **p-value (< 0.0001)** demonstrates that this trend is highly significant and unlikely to have occurred by chance. While the R-squared shows room for other influencing factors, the significant p-value highlights the reliability of the observed trend.
+•	The trend coefficient is -0.0015, indicating a small but consistent decline in short-term financial expectations among the 18-34 age group. The model’s **R-squared of 0.287** suggests that 28.7% of the variability in expectations can be attributed to the trend. The **p-value (< 0.0001)** demonstrates that this trend is highly significant and unlikely to have occurred by chance. While the R-squared shows room for other influencing factors, the considerable p-value highlights the reliability of the observed trend.
 
-•	Overall, this suggests short-term financial expectations for the coming year are becoming slightly less optimistic over time. This trend reflects potential short-term uncertainty. However, other factors should be taken into consideration as well. 
+•	Overall, this suggests short-term financial expectations for the coming year are becoming slightly less optimistic. This trend reflects potential short-term uncertainty. However, other factors should be taken into consideration as well. 
 
 ![](LinearReg-ExpectedChange-Next-5YR.png)
 
