@@ -10,25 +10,24 @@
 
 **Analyses Conducted:** Tableau was used to create predictive models, such as forecasts and linear regression. The models provided insights into the "Current Financial Situation," "Expected Changes," and "Probabilities of Income Gains and Job Losses."
 
-**Link to Tableau Public Dashboard / Story:**  ADD IT HERE! 
+**Link to Tableau Public Dashboard / Story:**  LINK COMING SOON! 
 
 ----------------------------------------------------------------------------------------------------------
 
 ### **Data Preparation:** 
 
-Data was downloaded from the University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. However, the data is as of **XX/XX/XXX**.
-The data was then restructured to include a column for each personal finance question. The original file separated the responses for each demographic individual (e.g., 18-34, 35-54, 55-97) by personal finance question.
+Data was downloaded from the University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. 
+However, the data is as of **XX/XX/XXX**. The data was then restructured to include a column for each personal finance question. The original file separated the responses for each demographic individual (e.g., 18-34, 35-54, 55-97) by personal finance question.
+
+**Data Pivoted and Reorganized:**
 - Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
 - Tableau was also used to create groups by personal finance questions by type (e.g. Current Situation Comparison, Expectation of the Future, and Probabilities).
 
-**Helpful Calculations Used:** 
-- XX
-- XX
+![](PivotTable.PNG)
 
-**Visualization Notes:** 
-- To ensure the charts are not overwhelming, only specific periods were highlighted to show the labels. A calculation with recession dates was created to label dates as "Normal" or "Highlight" periods. 
-- Other periods that were displayed were the lowest and highest scores.
-  
+**Helpful Calculations / Parameters Used:**
+- **Dot-Highlight Dates (Orange Dots for Recessions)** – Created a calculated field using DATETRUNC to label quarters as “Normal” or “Highlight” to highlight recession periods. 
+Then, I used other Tableau features, such as parameters for recession shadow periods and reference lines for high and low scores, as well as models such as forecast and linear regression.   
 ----------------------------------------------------------------------------------------------------------
 
 ## **Series of Analyses:**
@@ -39,7 +38,7 @@ The data was then restructured to include a column for each personal finance que
 
 •	**Lowest Confidence:** During the Great Recession, the 1-year ago comparison confidence dropped to 77, and the 5-years ago comparison dropped to 108, and then it took a decade to recover. The 2020 pandemic recession triggered another decline, with scores now at 100 and 135 in 2024, respectively. 
 
-•	**Highest Confidence:** For 1-year ago comparisons, confidence peaked in 1997 at 156 but stayed relatively the same until 2001 when it dropped to 141 and then continued down until 2002. Scores did not recover until 2019 Q4, before the 2020 pandemic recession. For the 5-year ago comparison, the score peaked at 172, before the 2001 recession. The 2020 pandemic recession triggered another decline, with scores now at 100 and 135 in 2024, respectively.
+•	**Highest Confidence:** For one-year-ago comparisons, confidence peaked at 156 in 1997 and stayed relatively the same until 2001, when it dropped to 141 and then continued down until 2002. Scores did not recover until 2019 Q4, before the 2020 pandemic recession. For the five-year-ago comparison, the score peaked at 172 before the 2001 recession. The 2020 pandemic recession triggered another decline, with scores now at 100 and 135 in 2024, respectively.
 
 **Linear Regression:** 
 ![](LinearReg-CurrentFinSituation_1YR-ago.png)
@@ -87,7 +86,7 @@ The data was then restructured to include a column for each personal finance que
 
 **Probability of Job Loss:**
 
-•	The current outlook as of 2024 Q4, the perception of the probability of Job Loss is at 27, and it has remained elevated, similar to pandemic levels, reflecting continued instability in the labor market.
+•	The current outlook: As of 2024 Q4, the perception of the probability of Job Loss is 27, and it has remained elevated, similar to pandemic levels, reflecting continued instability in the labor market.
 
 •	While lower than the peak of 37 in 2020, the score highlights lingering concerns about economic security, even as unemployment rates nationally remain low.
 
@@ -122,7 +121,7 @@ The results should be particularly interesting for policymakers as it would also
 
 ### Conclusion:
 
-The financial confidence and expectations of individuals aged 18-34 have been profoundly shaped by economic cycles. While the current outlook in 2024 shows improvement compared to previous recession lows, it remains subdued relative to the highs before the 2020 pandemic recession which caused a sharp decline in confidence and expectations over the past four years. 
+Economic cycles have profoundly shaped the financial confidence and expectations of individuals aged 18-34. While the current outlook in 2024 shows improvement compared to previous recession lows, it remains subdued relative to the highs before the 2020 pandemic recession which caused a sharp decline in confidence and expectations over the past four years. 
 
 ## Assumptions and Caveats:
 - Please note that certain personal questions either started later than other questions or they seem to have had a pause. I displayed the time series as is with those periods missing. 
