@@ -10,14 +10,14 @@
 
 **Analyses Conducted:** Tableau was used to create predictive models, such as forecasts and linear regression. The models provided insights into the "Current Financial Situation," "Expected Changes," and "Probabilities of Income Gains and Job Losses."
 
-**Link to Tableau Public Dashboard / Story:**  LINK COMING SOON! 
+**Link to Tableau Public Dashboard / Story:**  (https://public.tableau.com/app/profile/elphys.alvarez/viz/SurveyofConsumers-Personal_Finances_Age18-34/StoryofAgeGroup18-34#1)
 
 ----------------------------------------------------------------------------------------------------------
 
 ### **Data Preparation:** 
 
 Data was downloaded from the University of Michigan’s Surveys of Consumers site ( [https://data.sca.isr.umich.edu/subset/subset.php]) at the end of December 2024. 
-However, the data is as of **XX/XX/XXX**. The data was then restructured to include a column for each personal finance question. The original file separated the responses for each demographic individual (e.g., 18-34, 35-54, 55-97) by personal finance question.
+However, the data is as of **11/2024**. The data was then restructured to include a column for each personal finance question. The original file separated the responses for each demographic individual (e.g., 18-34, 35-54, 55-97) by personal finance question.
 
 **Data Pivoted and Reorganized:**
 - Using Tableau, the data was pivoted to allow for filtering by demographic groups and personal finance question type.
@@ -27,7 +27,7 @@ However, the data is as of **XX/XX/XXX**. The data was then restructured to incl
 
 **Helpful Calculations / Parameters Used:**
 - **Dot-Highlight Dates (Orange Dots for Recessions)** – Created a calculated field using DATETRUNC to label quarters as “Normal” or “Highlight” to highlight recession periods. 
-Then, I used other Tableau features, such as parameters for recession shadow periods and reference lines for high and low scores, as well as models such as forecast and linear regression.   
+Then, I used other Tableau features, such as parameters for recession shadow periods, reference lines for high and low scores, and forecast and linear regression models.   
 ----------------------------------------------------------------------------------------------------------
 
 ## **Series of Analyses:**
